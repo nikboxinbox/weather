@@ -4,8 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "dev": "node -r dotenv/config app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nik_nik",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "weather": "app.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
