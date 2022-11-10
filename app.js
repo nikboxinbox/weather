@@ -33,8 +33,3 @@ input.on("line", (data) => {
         }
     );
 });
-
-// // Current Weather API Endpoint
-// http://api.weatherstack.com/current
-//     ? access_key = YOUR_ACCESS_KEY
-//     & query = New York
