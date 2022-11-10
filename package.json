@@ -1,18 +1,19 @@
 {
-  "name": "weather",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "dev": "node -r dotenv/config app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "nik_nik",
-  "license": "ISC",
-  "bin": {
-    "weather": "app.js"
-  },
-  "devDependencies": {
-    "dotenv": "^16.0.3"
-  }
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node -r dotenv/config app.js",
+        "dev": "node -r dotenv/config app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "nik_nik",
+    "license": "ISC",
+    "bin": {
+        "weather": "app.js"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.3"
+    }
 }
